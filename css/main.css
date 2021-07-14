@@ -1,0 +1,143 @@
+/***** BASE STYLES ******/ 
+
+body{
+	background: url("../img/background.png");
+	font-family:'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width{
+	width: 1200px; 
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+header{
+	height: 110px;
+}
+
+header h1{
+	font-family: 'Lobster Two', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #EC749F;
+	padding-top: 20px;
+}
+
+h1 span{
+    color: #000000;
+}
+
+nav {
+    float: right; 
+    padding: 40px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #EC749F;
+    padding: 8px;
+}
+
+/***** TOP SECTION *****/
+
+#about h2{
+	font-family: 'Lobster Two', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	color: #EC749F;
+}
+
+#about img{
+	border-bottom: solid;
+	border-top: solid;
+	border-width: 3px;
+	border-color: #EC749F;
+	width: 100%;
+	height: 250px;
+}
+
+#about p{
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#app, #reviews, #locations{
+	border-top: solid;
+	border-width: 1px;
+	border-color: #dedbdc;
+}
+
+h4{
+	font-family: 'Lobster Two', cursive;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+#app{
+	padding-left: 15px;
+}
+
+#app img{
+	width: 150px;
+	height: 50px;
+	object-position: center;
+}
+
+#reviews{
+	border-left: solid;
+	border-right: solid;
+	border-width: 1px;
+	border-color: #dedbdc;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 350px;
+}
+
+#locations{
+	padding-left: 15px;
+}
+
+/***** FOOTER *****/
+
+h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	border-top: solid;
+	border-width: 1px;
+	border-color: #dedbdc;
+	padding: 20px 0;
+	text-align: center;
+	clear: left;
+}
+
+h3 span{
+	font-family: 'Lobster Two', cursive;
+	text-transform: lowercase;
+	font-size: 16px;
+	color: #EC749F;
+}
