@@ -19,7 +19,7 @@ body{
 }
 
 .third-width{
-	width: 400px;
+	width: 390px;
 	float: left;
 }
 
@@ -32,7 +32,7 @@ header h1{
 	font-family: 'Lobster Two', cursive;
 	font-size: 30px;
 	font-weight: bold;
-	color: #DD1C1A;
+	color: #FF66C4;
 	padding-top: 20px;
 }
 
@@ -54,7 +54,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    color: #DD1C1A;
+    color: #FF66C4;
     padding: 8px;
 }
 
@@ -64,16 +64,15 @@ nav ul li a{
 	font-family: 'Lobster Two', cursive;
 	font-size: 18px;
 	font-weight: bold;
-	color: #DD1C1A;
+	color: #FF66C4;
 }
 
 #about img{
-	border-bottom: solid;
-	border-top: solid;
-	border-width: 3px;
-	border-color: #DD1C1A;
-	width: 100%;
+	width: 33.3%;
 	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #about p{
@@ -95,6 +94,7 @@ h4{
 	font-size: 12px;
 	font-weight: bold;
 	padding-top: 5px;
+	text-align: center;
 }
 
 #app{
@@ -104,21 +104,31 @@ h4{
 #app img{
 	width: 150px;
 	height: 50px;
-	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
 }
 
 #reviews{
-	border-left: solid;
-	border-right: solid;
-	border-width: 1px;
-	border-color: #dedbdc;
 	padding-left: 15px;
 	padding-right: 15px;
 	width: 350px;
 }
 
+#reviews p{
+	padding-top: 50px;
+}
+
 #locations{
 	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /***** FOOTER *****/
@@ -138,6 +148,6 @@ h3{
 h3 span{
 	font-family: 'Lobster Two', cursive;
 	text-transform: lowercase;
-	font-size: 16px;
-	color: #DD1C1A;
+	font-size: 18px;
+	color: #FF66C4;
 }
